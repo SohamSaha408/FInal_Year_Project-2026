@@ -1,0 +1,17 @@
+# Root ignores
+.env
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+# Node
+node_modules/
+dist/
+build/
+# OS
+.DS_Store
+Thumbs.db
+# Backend env
+backend/.env
