@@ -8,7 +8,7 @@ services:
     plan: free
     envVars:
       - key: 1TVUpE-sbaC72Tj9-yNIpA
-        sync: false
+        sync: VEDAS_API_KEY
       - key: VEDAS_BASE_URL
         value: https://vedas.sac.gov.in/vconsole
 
