@@ -3,7 +3,7 @@ import httpx
 from typing import Dict, Any, List
 
 VEDAS_BASE = os.getenv("VEDAS_BASE_URL", "https://vedas.sac.gov.in/vconsole")
-API_KEY = os.getenv("VEDAS_API_KEY", "")
+API_KEY = os.getenv("VEDAS_API_KEY", "1TVUpE-sbaC72Tj9-yNIpA")
 
 async def fetch_ndvi_timeseries(lat: float, lon: float, radius_m: int = 30, start_date: str | None = None, end_date: str | None = None) -> List[Dict[str, Any]]:
     """
