@@ -7,7 +7,7 @@ services:
     startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
     plan: free
     envVars:
-      - key: VEDAS_API_KEY
+      - key: 1TVUpE-sbaC72Tj9-yNIpA
         sync: false
       - key: VEDAS_BASE_URL
         value: https://vedas.sac.gov.in/vconsole
