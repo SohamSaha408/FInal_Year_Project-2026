@@ -6,7 +6,7 @@ import 'chart.js/auto'
 export default function App() {
   const [lat, setLat] = useState('')
   const [lon, setLon] = useState('')
-  const [backendUrl, setBackendUrl] = useState('') // set your Render backend URL here
+  const [backendUrl, setBackendUrl] = useState('https://final-year-project-2026-y128.onrender.com') // set your Render backend URL here
   const [result, setResult] = useState(null)
   const [loading, setLoading] = useState(false)
 
