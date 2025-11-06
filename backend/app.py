@@ -5,7 +5,8 @@ from vedas_client import (
     fetch_ndvi_timeseries_point,
     fetch_ndvi_timeseries_polygon,
 )
-from predictor_wrapper import predict_from_vedas_ts, try_load_saved_model
+from predictor_wrapper import predict_from_vedas_ts
+
 
 class PredictRequest(BaseModel):
     lat: Optional[float] = None
