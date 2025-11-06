@@ -6,7 +6,7 @@ from shapely.geometry import shape, mapping
 from shapely.geometry.base import BaseGeometry
 
 VEDAS_BASE = os.getenv("VEDAS_BASE_URL", "https://vedas.sac.gov.in/vconsole")
-API_KEY = os.getenv("VEDAS_API_KEY", "")
+API_KEY = os.getenv("VEDAS_API_KEY", "1TVUpE-sbaC72Tj9-yNIpA")
 
 def _headers():
     return {"Authorization": f"Bearer {API_KEY}"} if API_KEY else {}
